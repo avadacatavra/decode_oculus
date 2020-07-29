@@ -29,7 +29,7 @@ if __name__ == "__main__":
     # Parse command line arguments
     parser = argparse.ArgumentParser(
         description=
-        """hack_facebook.py: Takes a file with the b64 and zlib compressed message and reads it in, prints to stdout""")
+        """decode_oculus.py: Takes a file with the b64 and zlib compressed message and reads it in, prints to stdout""")
     parser.add_argument('--input',
                         required=True,
                         metavar='/path/to/facebook_message.txt',
